@@ -1,0 +1,22 @@
+Notas:
+	Pruebas unitarias se divide en 3 partrs
+		Arrange: la inicialización de los componentes necesarios para las pruebas
+		Act: el desarrollo de la prueba
+		Assert: la verificación de la prueba (Si pasa o no)
+
+
+JasminJS
+	* Esta es la librería por defecto de Angular para desarrollar las pruebas unitarias.
+	* Cada que se crea un nuevo elemento como componente, servicio, etc. Se creará un archivo de pruebas para trabajar con Jasmin
+	* jasmine.github.io <- Página, aquí se puede ver la documentación
+
+Métodos:
+	* afterAll: Se ejecutan después de correr todas as pruebas del componente (componente como clase de pruebas)
+	* afterEach: se ejecutan después de cada *it* (caso de prueba)
+	* beforeAll: Se ejecutan antes de todas las pruebas del componente
+	* beforeEach: Se ejecuta antes de cada *it* (caso de prueba)
+	* describe: Describe las pruebas sobre el componente
+	* expect: Método que espera que el valor que se le pase por parametro sea el que se espera (como el assert en JUnit)
+	* it: casos de pruebas
+	* fit: casos de prueba enfocados, es decir, sólo se lanzarán los casos de pruebas que contengan esta *f* antes del *it*
+	* spyOn: permite simular métodos get o post de los servicios
