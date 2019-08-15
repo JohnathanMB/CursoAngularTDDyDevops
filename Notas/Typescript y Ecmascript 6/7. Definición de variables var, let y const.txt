@@ -1,0 +1,10 @@
+PAlabras reservadas.
+	* var -> ambito de funcion (funciona entre cualquier parte de la función donde haya sido declarada), y se puede re-declarar en cualquier momento
+
+	* let -> ambito de bloque (funciona entre {}), además no se puede re-declarar un objeto que ya haya sido declarado como Let
+	
+	* const -> Constantes (la convención dice que las constantes van en mayusculas) 
+
+NOTA: 
+	* El que más se usa normalmente es *let*
+	* Estas son palabras reservadas de Javascript

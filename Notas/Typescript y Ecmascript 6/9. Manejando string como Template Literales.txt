@@ -1,0 +1,10 @@
+Los string como Template Literales son string que facilitan mucho la concatenación de variables en su estructura.
+
+Para el uso de estos se hace con ``. Ejemplo:
+
+var nombre = "JM";
+console.log(`Buen día ${nombre}`);
+
+donde: ${<algo>} 
+	* ${} : se usa para denotar la concatenación de alguna variable o operación.
+	* <algo> : la variable u operación que se desea mostrar.

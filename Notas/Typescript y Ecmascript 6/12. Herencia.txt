@@ -1,0 +1,9 @@
+Herencia:
+	Se puede decir que es cuando una clase nueva se crea a partir de una clase existente
+
+	Clase padre:
+		La clase principal de la que se cren subclases.
+
+	subclase (clase hija):
+		la clase que se crea a partir de otra clase. Esta tiene las mismas caracteristicas y funciones de su clase padre.
+		Además se le pueden agregar nuevas características o métodos nuevos que sólo serán de esta clase.

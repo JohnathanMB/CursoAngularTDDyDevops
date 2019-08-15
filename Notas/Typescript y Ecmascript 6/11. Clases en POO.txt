@@ -1,0 +1,27 @@
+Lo mismo que en java
+class Persona {
+
+    //atributos
+    nombre: string;
+    apellido: string;
+    fechaNacimiento: Date;
+
+    constructor(nombre:string, apellido:string, fechaNacimiento:Date){
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.fechaNacimiento = fechaNacimiento;
+    }
+
+    //métodos
+    edad(): number{
+        let edad: number;
+        edad = new Date().getFullYear()- this.fechaNacimiento.getFullYear();
+        return edad;
+    }
+
+}
+
+var empleado: Persona = new Persona("Johnathan","Monsalve", new Date("04-22-1995"));
+console.log(empleado);
+
+cuando se cren métodos no se pone la palabra reservada *function*

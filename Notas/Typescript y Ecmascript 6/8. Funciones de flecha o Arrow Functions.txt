@@ -1,0 +1,27 @@
+Functions:
+	var sumar = functions(num1, num2){
+		return num1 + num 2;
+	}
+
+Arrow Function:
+	Opcion1:
+		var sumar = (num1, num2) => {
+			return num1 + num2;
+		}
+
+	Opcion2:
+		var sumar = (num1, num2 ) => num1 + num2;
+
+	Opcion3 (sólo cuando se tenga sólo un parametro):
+		var sumar = num1 => num1 + 10;
+
+
+
+
+
+Cuando usar Functions?:
+	Cuando se vayan a crear métodos
+
+Cuánd usar Arrow Functions?:
+	Cuando se vayan a usar callback 
+	Cuando se quiera crear código más compacto

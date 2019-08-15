@@ -1,0 +1,12 @@
+Interfaces:
+	Un contrato para estableces obligatoriamente una serie de parametro o funciones para una variable.
+
+¿Cómo usar interfaces?
+	Se debe declarar con la palabra reservada *interface* ejemplo:
+
+	interface IPersona{
+    	nombre: string,
+    	apellido: string,
+    	edad: number
+	}
+
